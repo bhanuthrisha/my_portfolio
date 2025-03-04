@@ -1,0 +1,174 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+    max-width: 900px;
+    margin: auto;
+}
+
+#about {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 50px;
+    border-radius: 15px;
+}
+
+/* Profile Image */
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px 0;
+    border: 3px solid #ffcc00;
+}
+
+/* Social Media Icons */
+.contact-icon {
+    width: 50px; /* Adjusted to be smaller */
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.contact-icon:hover {
+    transform: scale(1.1);
+}
+
+/* Projects Section */
+.project {
+    background: rgba(255, 255, 255, 0.2);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project img {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Certificates Section */
+#certificates {
+    text-align: center;
+    padding: 50px;
+    background-color: #1d2d538b; /* Light gray background */
+}
+
+.certificate-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    gap: 20px; /* Space between certificates */
+}
+
+.certificate {
+    width: 250px;
+    max-width: 100%;
+    padding: 15px;
+    background: #b0b8ba; /* Light warm color for certificates */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.certificate:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.certificate img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Certificate text */
+.certificate p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+
+
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px; /* Adjusted width */
+    margin: auto;
+}
+
+input, textarea {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 100%; /* Ensures full width */
+}
+
+button {
+    background: #ffcc00;
+    color: black;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ffdd44;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+}
