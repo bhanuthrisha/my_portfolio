@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhanuthrisha | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Bhanuthrisha</h1>
+        <p>Innovative Developer | Passionate Learner</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="about-container">
+            <img src="images/profile.jpg" alt="Bhanuthrisha">
+            <div>
+                <h2>About Me</h2>
+                <p>Hello! I'm Bhanuthrisha, a passionate developer with expertise in AI, web development, and cloud computing.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <img src="images/project1.jpg" alt="Project 1">
+                <h3>Placement Management System</h3>
+                <p>A web-based system that automates university recruitment processes.</p>
+            </div>
+            <div class="project">
+                <img src="images/project2.jpg" alt="Project 2">
+                <h3>AI-Powered Symptom Checker</h3>
+                <p>An AI-driven tool that provides health insights and diagnosis suggestions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:battubhanuthrisha31@gmail.com">battubhanuthrisha31@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/bhanuthrisha" target="_blank">github.com/bhanuthrisha</a></p>
+        <p>LinkedIn: <a href="http://www.linkedin.com/in/battu-bhanuthrisha-0916b32b6" target="_blank">LinkedIn Profile</a></p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Bhanuthrisha. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
